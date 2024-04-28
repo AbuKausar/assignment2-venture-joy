@@ -103,6 +103,41 @@
     font-weight: 400;
 }
 
+/* Our Popular Tours style */
+.popular-tours-container{
+    width: 1170px;
+    padding: 100px 0;
+    margin: 0 auto;
+    border: 2 px solid red;
+    display: flex;
+    gap: 30px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+button {
+    background-color: #FF5400;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tours-heading{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+    
+}
+
+.tours-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
 @media screen and (max-width: 600px) {
    
 }
