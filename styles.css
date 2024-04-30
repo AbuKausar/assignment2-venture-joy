@@ -181,6 +181,70 @@ button {
     text-align: center;
 }
 
+/* why choose us styles */
+.why-us-container{
+    width: 1170px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.why-us-container > h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.why-us-container > p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+.why-us-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.handpick, .location, .sale {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.location {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.sale {
+    width: 573px;
+    height: 235px;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+
+.us-item-heading {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 5px 0 10px 0;
+}
+
 
 @media screen and (max-width: 600px) {
    
