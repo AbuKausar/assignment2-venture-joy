@@ -406,7 +406,59 @@ button {
     font-weight: 800;
 }
 
+/* footer styles */
 
-@media screen and (max-width: 600px) {
-   
+.footer-container {
+    padding: 100px 0;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-fav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-fav-icon > h2 {
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-container > p {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.social-icons {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.hr-line {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.rights {
+    padding-top: 40px;
+    margin: 0 auto;
 }
