@@ -1,0 +1,150 @@
+/* CSS for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hamburger-icon {
+        order: 1;
+    }
+
+    .hamburger-icon img {
+        width: 30px;
+        height: auto;
+    }
+
+    .banner-container {
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+    }
+
+    .banner-container>h3 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    
+    .banner-container>p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .banner-inputs {
+        display: flex;
+        width: 287px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-left: 25px;
+    }
+
+    .banner-inputs>input, select, button {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .popular-tours-container {   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popular-tours-info {
+        width: 350px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .popular-tours-img > img {
+        width: 335px;
+        margin: 20px;
+    }
+
+    .destination-container {
+        width: 335px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container > img{
+        width: 335px;     
+    }
+
+    .why-us-container {
+        width: 335px;
+    }
+
+    .why-us-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale {
+        width: 335px;
+    }
+
+    .testimonial-container{
+        width: 335px;
+    }
+
+    .testimonials-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .newsletter-form, .newsletter-img {
+        width: 335px;
+        margin-left: 20px;
+    }
+
+    .input-field, .input-button {
+        width: 70%;
+    }
+
+    .news-img-text {
+        width: 280px;       
+    }
+
+    .newsletter-img{
+        border-radius: 10px;
+    }
+
+    .news-img-text>h4 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .news-img-text >p {
+    font-size: 18px;
+}
+}
+
+/* CSS for screens larger than 600px */
+@media only screen and (min-width: 992px) {
+    .hamburger-icon {
+        display: none;
+        /* Hide the hamburger icon on larger devices */
+    }
+
+    .nav-items {
+        display: flex;
+        /* Show the navigation links on larger devices */
+    }
+}
